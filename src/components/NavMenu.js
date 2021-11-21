@@ -1,23 +1,162 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import styled from 'styled-components';
+import { MdMenu, MdClose } from 'react-icons/md';
+
+const NaveMenuStyles = styled.div`
+  position: fixed;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1rem 0;
+  background-color: var(--dark-bg);
+  ul {
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+    text-align: center;
+  }
+  li {
+    display: inline-block;
+    border-radius: 8px;
+    transition: all.3s ease background-color;
+    &:hover {
+      background-color: var(--deep-dark);
+    }
+    a {
+      display: inline-block;
+      font-family: 'RobotoMono Regular';
+      padding: 1rem 2rem;
+      font-size: 2rem;
+      color: var(--gray-1);
+      outline: none;
+    }
+    .active {
+      color: var(--white);
+    }
+  }
+  .mobile-menu-icon {
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    width: 4rem;
+    cursor: pointer;
+    outline: none;
+    display: none;
+    * {
+      pointer-events: none;
+    }
+  }
+  .closeNavIcon {
+    display: none;
+  }
+  @media only screen and (max-width: 760px) {
+    padding: 0;
+    .mobile-menu-icon {
+      display: block;
+    }
+    .hide-items {
+      transform: translateY(calc(-100% - var(--top)));
+    }
+    .navItems {
+      --top: 1rem;
+      transition: 0.3s ease transform;
+      background-color: var(--deep-dark);
+      padding: 2rem;
+      width: 90%;
+      max-width: 300px;
+      border-radius: 12px;
+      position: absolute;
+      right: 1rem;
+      top: var(--top);
+      .closeNavIcon {
+        display: block;
+        width: 3rem;
+        margin: 0 0 0 auto;
+        cursor: pointer;
+        * {
+          pointer-events: none;
+        }
+      }
+      li {
+        display: block;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+`;
 
 export default function NavMenu() {
+  const [showNav, SetShowNav] = useState(false);
+
   return (
-    <div>
-      <ul>
+    <NaveMenuStyles>
+      <div
+        className="mobile-menu-icon"
+        onClick={() => SetShowNav(!showNav)}
+        role="button"
+        onKeyDown={() => SetShowNav(!showNav)}
+        tabIndex={0}
+      >
+        <MdMenu />
+      </div>
+      <ul className={!showNav ? 'navItems hide-items' : 'navItems'}>
+        <div
+          className="closeNavIcon"
+          onClick={() => SetShowNav(!showNav)}
+          role="button"
+          onKeyDown={() => SetShowNav(!showNav)}
+          tabIndex={0}
+        >
+          <MdClose />
+        </div>
         <li>
-          <NavLink to="/">Home</NavLink>
+          <NavLink
+            to="/"
+            exact
+            onClick={() => SetShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => SetShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Home
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/about">About Me</NavLink>
+          <NavLink
+            to="/about"
+            onClick={() => SetShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => SetShowNav(!showNav)}
+            tabIndex={0}
+          >
+            About
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/projects">Projects</NavLink>
+          <NavLink
+            to="/projects"
+            onClick={() => SetShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => SetShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Projects
+          </NavLink>
         </li>
         <li>
-          <NavLink to="/contact">Contact</NavLink>
+          <NavLink
+            to="/contact"
+            onClick={() => SetShowNav(!showNav)}
+            role="button"
+            onKeyDown={() => SetShowNav(!showNav)}
+            tabIndex={0}
+          >
+            Contact
+          </NavLink>
         </li>
       </ul>
-    </div>
+    </NaveMenuStyles>
   );
 }
