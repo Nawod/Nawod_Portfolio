@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const ButtonStyle = styled.div`
   margin-top: 2rem;
   .button {
-    font-size: 2.2rem;
+    font-size: 2rem;
     background-color: ${(props) =>
       props.outLine ? 'transparent' : 'var(--gray-1)'};
     padding: 0.7em 2em;
@@ -16,7 +16,7 @@ const ButtonStyle = styled.div`
   }
   @media only screen and (max-width: 760px) {
     .button {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
     }
   }
 `;
@@ -27,7 +27,7 @@ export default function Button({
   outLine = false,
 }) {
   return (
-    <ButtonStyle outLine={outLine}>
+    <ButtonStyle outLine={outLine} className="button-wrapper">
       <Link className="button" to={btnLink}>
         {btnText}
       </Link>

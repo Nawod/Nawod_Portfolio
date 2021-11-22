@@ -1,7 +1,12 @@
-# React Portfolio website
+# My project showcase portfolio website
 
-My project showcase portfolio website
+![](./ReadMeImages/ReadMeBanner.png)
 
-<!-- ![](./ReadMeImages/ReadMeBanner.png) -->
+## Technologies usedd
 
-Source project - [shaif Arfan](http://github.com/shaifarfan) | [web cifar](http://webcifar.com)
+- React Js
+- JavaScript
+- HTML
+- CSS
+
+Source project - [shaif Arfan](http://github.com/shaifarfan)

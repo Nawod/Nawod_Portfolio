@@ -8,6 +8,7 @@ import ScrollDownArrow from '../assets/images/scroll-down-arrow.svg';
 
 const HeadingStyle = styled.div`
   .hero {
+    margin-top: -8.5rem;
     height: 100vh;
     min-height: 1000px;
     width: 100%;
