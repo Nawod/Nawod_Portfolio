@@ -2,7 +2,7 @@
 
 ![](./ReadMeImages/ReadMeBanner.png)
 
-## Technologies usedd
+## Technologies used
 
 - React Js
 - JavaScript
