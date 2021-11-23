@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { FaInstagramSquare, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
 import hero from '../assets/images/hero.JPG';
 import Button from './Button';
 import PText from './PText';
@@ -89,7 +90,7 @@ const HeadingStyle = styled.div`
       }
       a {
         display: inline-block;
-        font-size: 1.6rem;
+        font-size: 1.8rem;
         transform: rotate(-90deg);
         letter-spacing: 5px;
         margin-bottom: 2rem;
@@ -124,7 +125,7 @@ const HeadingStyle = styled.div`
       .hero__social__indicator {
         width: 20px;
         p {
-          font-size: 1.2rem;
+          font-size: 1.4rem;
         }
         img {
           max-height: 22px;
@@ -186,28 +187,28 @@ export default function HomeHeading() {
                 <li>
                   <a
                     href="https://www.linkedin.com/in/madhuvantha-kan/"
-                    traget="_blank"
+                    target="_blank"
                     rel="noreferrer"
                   >
-                    LI
+                    <FaLinkedin />
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://www.instagram.com/n_a_w_w_a/"
-                    traget="_blank"
+                    target="_blank"
                     rel="noreferrer"
                   >
-                    IG
+                    <FaInstagramSquare />
                   </a>
                 </li>
                 <li>
                   <a
                     href="https://github.com/Nawod"
-                    traget="_blank"
+                    target="_blank"
                     rel="noreferrer"
                   >
-                    GH
+                    <FaGithubSquare />
                   </a>
                 </li>
               </ul>
