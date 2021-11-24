@@ -167,8 +167,8 @@ export default function HomeHeading() {
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance UI/UX designer and web developer for
-              2years. I love self-learning and getting experience with new
+              I am working as a freelance UI/UX designer and web developer for 2
+              years. I love self-learning and getting experience with new
               technologies.
             </PText>
             <Button

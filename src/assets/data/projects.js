@@ -8,38 +8,64 @@ import CavinImg from '../images/cavinimg.jpg';
 const projects = [
   {
     id: uuidv4(),
-    name: 'U Tracker',
+    name: 'Freedom Play',
     desc:
-      'An application to track your all data from one place. I developed the website and the mobile app',
+      "AI based hand gesture tracking program for control media players' functions. ( Play/Pause, Volume control, Brightness control).",
     img: UTrackerImg,
+    link: 'https://github.com/Nawod/Freedom-Play',
   },
   {
     id: uuidv4(),
-    name: 'Green CTG',
+    name: 'Autonomous CyberAI Website',
     desc:
-      'An app to help people to get an overview of how they can make the city beautiful.',
+      'A responsive static website for Autonomous Cyber AI research showcase.',
     img: GreenCtgImg,
+    link: 'https://github.com/Nawod/Autonomous_CyberAI_Website',
   },
   {
     id: uuidv4(),
-    name: 'Coin Tracker',
+    name: 'Neuro Realistic Detection System',
     desc:
-      'Using this app you can track any e coin. Also you will get a good advise about investment form the professional',
+      'NLP based malicious traffics and URL classification extension for ELK stack.(elastic search)',
     img: CoinTrackerImg,
+    link: 'https://github.com/Nawod/Neuro-Realistic-Detection-System',
   },
   {
     id: uuidv4(),
-    name: "Cavin's Portfolio",
-    desc:
-      'A portfolio for Cavin jr. A artist from New york city. The portfolio is made using ReactJs and GatsbyJs.',
+    name: 'Watch Store',
+    desc: 'A Watch items preview page that build using React JS',
     img: CavinImg,
+    link: 'https://github.com/Nawod/watch_store',
   },
   {
     id: uuidv4(),
-    name: 'Tracking Soft',
+    name: 'Escape Room',
     desc:
-      'A tracking website that will show the performance of the website. Also you will get some useful advice to improve the performance.',
+      'A capture the flag challenge that made for test basic cyber security knowledge.',
+    img: CavinImg,
+    link: 'https://github.com/Nawod/escape_room',
+  },
+  {
+    id: uuidv4(),
+    name: 'The Miller App',
+    desc:
+      "An android app which made for mange miller's works. Developed using Flutter",
     img: ProjectImg,
+    link: 'https://github.com/Nawod/the_miller_app',
+  },
+  {
+    id: uuidv4(),
+    name: 'Teachgram',
+    desc: 'TeachGram is an online platform to conduct online classes.',
+    img: ProjectImg,
+    link: 'https://github.com/Nawod/teachgram',
+  },
+  {
+    id: uuidv4(),
+    name: 'Guess The Number',
+    desc: 'A simple number guessing game which created with python',
+    img: ProjectImg,
+    link: 'https://github.com/Nawod/GuessTheNumber-python-',
   },
 ];
 

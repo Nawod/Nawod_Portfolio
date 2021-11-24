@@ -15,7 +15,7 @@ const SectionTileStyle = styled.div`
   }
   @media only screen and (max-width: 760px) {
     p {
-      font-size: 1.2rem;
+      font-size: 1.3rem;
     }
     h2 {
       font-size: 3.6rem;
