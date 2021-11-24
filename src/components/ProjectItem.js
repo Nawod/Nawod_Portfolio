@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import projectImg from '../assets/images/projectImg.png';
 
@@ -28,6 +27,7 @@ const ProjectItemStyles = styled.div`
     font-size: 1.6rem;
     font-family: 'RobotoMono Regular';
     margin-top: 1rem;
+    min-height: 120px;
   }
   @media only screen and (max-width: 760px) {
     .projectItem__img {
@@ -35,6 +35,7 @@ const ProjectItemStyles = styled.div`
     }
     .projectItem__desc {
       font-size: 1.4rem;
+      min-height: 100px;
     }
   }
 `;
