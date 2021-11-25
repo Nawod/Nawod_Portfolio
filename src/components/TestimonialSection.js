@@ -81,6 +81,11 @@ const TestimonialStyle = styled.div`
     transition: 250ms ease-in;
     transition-property: opacity, transform;
   }
+  @media only screen and (max-width: 640px) {
+    .testimonial__info {
+      min-height: 230px;
+    }
+  }
 `;
 
 export default function TestimonialSection() {

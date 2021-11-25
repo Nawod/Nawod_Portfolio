@@ -1,6 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
-import { FaInstagramSquare, FaGithubSquare, FaLinkedin } from 'react-icons/fa';
+import {
+  FaInstagramSquare,
+  FaGithubSquare,
+  FaLinkedin,
+  FaBehanceSquare,
+} from 'react-icons/fa';
 import hero from '../assets/images/hero.JPG';
 import Button from './Button';
 import PText from './PText';
@@ -209,6 +214,15 @@ export default function HomeHeading() {
                     rel="noreferrer"
                   >
                     <FaGithubSquare />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.behance.net/madhuvantha"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <FaBehanceSquare />
                   </a>
                 </li>
               </ul>
