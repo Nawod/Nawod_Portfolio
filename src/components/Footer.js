@@ -121,6 +121,10 @@ export default function Footer() {
                 path: 'https://github.com/Nawod',
               },
               {
+                title: 'Fiverr',
+                path: 'https://www.fiverr.com/nawod25?up_rollout=true',
+              },
+              {
                 title: 'Behance',
                 path: 'https://www.behance.net/madhuvantha',
               },

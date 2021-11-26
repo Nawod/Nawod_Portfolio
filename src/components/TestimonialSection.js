@@ -120,10 +120,12 @@ export default function TestimonialSection() {
             <CSSTransition key={activeSlide.id} timeout={300} classNames="fade">
               <div className="testimonial__info">
                 <div className="testimonial__desc">
-                  <PText>{activeSlide.desc}</PText>
+                  <PText>"{activeSlide.desc}"</PText>
                 </div>
-                <h2 className="testimonial__name">{activeSlide.name}</h2>
-                <p className="testimonial__title">{activeSlide.title}</p>
+                <h2 className="testimonial__name">
+                  {activeSlide.name} , {activeSlide.from}
+                </h2>
+                <p className="testimonial__title">{activeSlide.org}</p>
               </div>
             </CSSTransition>
           </SwitchTransition>

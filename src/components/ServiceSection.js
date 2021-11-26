@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { MdCode } from 'react-icons/md';
 import SectionTitle from './SectionTitle';
 import ServicesSectionItems from './ServicesSectionItems';
+import Button from './Button';
 
 const ServiceItemStyles = styled.div`
   padding: 10rem 0;
@@ -11,6 +12,10 @@ const ServiceItemStyles = styled.div`
     gap: 10rem;
     justify-content: space-between;
     margin-top: 7rem;
+  }
+  .service__button {
+    text-align: center;
+    margin-top: 8rem;
   }
   @media only screen and (max-width: 760px) {
     .services__allItems {
@@ -37,6 +42,14 @@ export default function ServiceSection() {
             icon={<MdCode />}
             title="Web Dev"
             desc="I also develop the web applications. I create high performance websites with responsive design."
+          />
+        </div>
+        <div className="service__button">
+          <Button
+            btnText="Hire me from Fiverr"
+            outLine="false"
+            btnLink="https://www.fiverr.com/nawod25?up_rollout=true"
+            type="a"
           />
         </div>
       </div>
