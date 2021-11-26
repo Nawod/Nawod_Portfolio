@@ -41,6 +41,10 @@ const ProjectSectionStyles = styled.div`
   .swiper-button-next::after {
     font-size: 2rem;
   }
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background-color: var(--gray-2);
+  }
   @media only screen and (max-width: 760px) {
     .projects__allItems {
       flex-direction: column;

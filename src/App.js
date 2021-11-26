@@ -8,7 +8,7 @@ import Projects from './page/Projects';
 
 export default function App() {
   return (
-    <>
+    <div>
       <Router>
         <NavMenu />
         <Switch>
@@ -26,6 +26,6 @@ export default function App() {
           </Route>
         </Switch>
       </Router>
-    </>
+    </div>
   );
 }
