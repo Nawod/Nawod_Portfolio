@@ -24,7 +24,7 @@ const SectionTileStyle = styled.div`
 `;
 
 export default function SectionTitle({
-  subheading = 'the subheading',
+  subheading = 'The subheading',
   heading = 'The heading',
 }) {
   return (
