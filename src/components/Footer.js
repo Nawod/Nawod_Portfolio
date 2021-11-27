@@ -98,7 +98,7 @@ export default function Footer() {
                 path: 'mailto:madhuvanthanawo1@gmail.com',
               },
               {
-                title: 'Polonnaruwa, Sri Lanka',
+                title: 'Aralaganvila, Sri Lanka',
                 path: 'https://www.google.lk/maps',
               },
             ]}
