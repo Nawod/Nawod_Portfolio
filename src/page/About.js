@@ -108,7 +108,11 @@ export default function About() {
                 company while studying and making myself grow with the industry.
               </PText>
             </div>
-            <Button btnText="Download CV" />
+            <Button
+              btnText="Download CV"
+              btnLink="https://drive.google.com/file/d/1oW-oMffecJbmO06P630BrFPGagUBHNzS/view?usp=sharing"
+              type="a"
+            />
           </div>
           <div className="right">
             <img src={AboutImage} alt="About section img" />
