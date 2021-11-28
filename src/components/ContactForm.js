@@ -1,7 +1,10 @@
 import React, { useState } from 'react';
 import styled from 'styled-components';
+import emailjs from 'emailjs-com';
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-const FromStyle = styled.form`
+const FormStyle = styled.form`
   width: 100%;
   .form-group {
     width: 100%;
@@ -42,13 +45,39 @@ const FromStyle = styled.form`
   }
 `;
 
+toast.configure();
+
 export default function ContactForm() {
   const [name, setName] = useState('');
   const [email, setEmail] = useState('');
   const [message, setMessage] = useState('');
+  const Notify = (type, msg) => {
+    if (type === 'warn') {
+      toast.error(msg);
+    } else {
+      toast.success(msg);
+    }
+  };
+  const sentEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        'service_j6xylug',
+        'template_lmlw9ww',
+        e.target,
+        'user_tJ2f5utskD29DmKJNfXoQ'
+      )
+      .then((res) => {
+        Notify('success', 'Your message sucessfully sent!');
+        setName('');
+        setEmail('');
+        setMessage('');
+      })
+      .catch((err) => Notify('warn', "Sorry! Your message didn't sent"));
+  };
   return (
     <div>
-      <FromStyle>
+      <FormStyle onSubmit={sentEmail}>
         <div className="form-group">
           <label htmlFor="name">
             Your name
@@ -56,6 +85,7 @@ export default function ContactForm() {
               type="text"
               id="name"
               name="name"
+              required
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -65,9 +95,10 @@ export default function ContactForm() {
           <label htmlFor="email">
             Your email
             <input
-              type="text"
+              type="email"
               id="email"
               name="email"
+              required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -80,13 +111,14 @@ export default function ContactForm() {
               type="text"
               id="message"
               name="message"
+              required
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
           </label>
         </div>
         <button type="submit">Send</button>
-      </FromStyle>
+      </FormStyle>
     </div>
   );
 }
