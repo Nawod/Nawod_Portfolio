@@ -11,15 +11,13 @@ const AboutItemStyles = styled.div`
   .title {
     font-size: 2.2rem;
   }
-  .items,
-  .items2 {
+  .items {
     display: flex;
     gap: 1.5rem;
     position: absolute;
     left: 25rem;
   }
-  .item,
-  .item2 {
+  .item {
     background-color: var(--deep-dark);
     padding: 1rem;
     border-radius: 8px;
@@ -29,13 +27,28 @@ const AboutItemStyles = styled.div`
     flex-direction: column;
     align-items: flex-start;
     gap: 1rem;
-    .items,
-    .items2 {
+    .items {
       position: initial;
       gap: 1rem;
     }
     .title {
       font-size: 2rem;
+    }
+  }
+  @media only screen and (max-width: 380px) {
+    .para {
+      font-size: 1.3rem;
+    }
+    .items {
+      gap: 0.8rem;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    .para {
+      font-size: 1.3rem;
+    }
+    .items {
+      flex-direction: column;
     }
   }
 `;

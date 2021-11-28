@@ -50,6 +50,24 @@ const AboutItemMultiStyles = styled.div`
       font-size: 2rem;
     }
   }
+  @media only screen and (max-width: 380px) {
+    .para {
+      font-size: 1.3rem;
+    }
+    .items,
+    .items2 {
+      gap: 0.8rem;
+    }
+  }
+  @media only screen and (max-width: 330px) {
+    .para {
+      font-size: 1.3rem;
+    }
+    .items,
+    .items2 {
+      flex-direction: column;
+    }
+  }
 `;
 
 export default function AboutItemsMulti({
