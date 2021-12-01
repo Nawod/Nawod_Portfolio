@@ -44,7 +44,7 @@ export default function ProjectItem({
   img = projectImg,
   title = 'Project Title',
   desc = 'Project description',
-  link = '/projects',
+  link = 'https://github.com/Nawod?tab=repositories',
 }) {
   return (
     <ProjectItemStyles>
