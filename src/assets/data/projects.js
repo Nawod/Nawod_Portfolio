@@ -17,86 +17,9 @@ import Twite from '../images/twite.png';
 import Waytohome from '../images/waytohome.png';
 import C from '../images/c.png';
 import SimpleStore from '../images/simpleStore.png';
+import Bodimak from '../images/bodimak.png';
 
 const projects = [
-  {
-    id: uuidv4(),
-    name: 'TeachGram UI',
-    desc: 'UI/UX interfaces for online learning platform',
-    img: TeachgramUI,
-    link:
-      'https://www.behance.net/gallery/125023009/Learning-Management-System-UI',
-  },
-  {
-    id: uuidv4(),
-    name: 'Autonomous CyberAI Website',
-    desc:
-      'A responsive static website for Autonomous Cyber AI research showcase.',
-    img: CyberAI,
-    link: 'https://autonomous-cyberai.netlify.app/',
-  },
-  {
-    id: uuidv4(),
-    name: 'Watch Store',
-    desc: 'A Watch store items preview page that build using React JS',
-    img: Watch,
-    link: 'https://github.com/Nawod/watch_store',
-  },
-  {
-    id: uuidv4(),
-    name: 'Freedom Play',
-    desc:
-      "AI based hand gesture tracking program for control media players' functions. ( Play/Pause, Volume control, Brightness control).",
-    img: HandTracking,
-    link: 'https://github.com/Nawod/Freedom-Play',
-  },
-  {
-    id: uuidv4(),
-    name: 'Neuro Realistic Detection System',
-    desc:
-      'NLP based malicious traffics and URL classification extension for ELK stack.(elastic search)',
-    img: NRDS,
-    link: 'https://github.com/Nawod/Neuro-Realistic-Detection-System',
-  },
-  {
-    id: uuidv4(),
-    name: 'Escape Room',
-    desc:
-      'A capture the flag challenge that made for test basic cyber security knowledge.',
-    img: EscapeRoom,
-    link: 'https://github.com/Nawod/escape_room',
-  },
-  {
-    id: uuidv4(),
-    name: 'Crypto Market UI',
-    desc: 'A crypto marketing web application UI/UX.',
-    img: CryptoUI,
-    link:
-      'https://www.behance.net/gallery/124896191/Dashboard-for-a-crypto-marketing-web-application',
-  },
-  {
-    id: uuidv4(),
-    name: 'PicTip UI',
-    desc: 'A social media web application UI/UX.',
-    img: PictipUI,
-    link:
-      'https://www.behance.net/gallery/124586137/Social-Media-Web-Application-UIWireframes',
-  },
-  {
-    id: uuidv4(),
-    name: 'The Way To Home',
-    desc: 'Construct 2 based 2D web game',
-    img: Waytohome,
-    link: 'https://thewaytohome.netlify.app/',
-  },
-  {
-    id: uuidv4(),
-    name: 'Portfolio UI',
-    desc: 'A social media web application UI/UX.',
-    img: PortfolioUI,
-    link:
-      'https://www.behance.net/gallery/124427335/Responsive-Portfolio-website',
-  },
   {
     id: uuidv4(),
     name: 'The Miller App',
@@ -129,13 +52,6 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Twite Twitty',
-    desc: 'An endless flying game like Flappy Bird',
-    img: Twite,
-    link: 'https://twite-twitty.netlify.app/',
-  },
-  {
-    id: uuidv4(),
     name: 'Snakey',
     desc: 'A Snake game that built with JAVA.',
     img: Snakey,
@@ -155,6 +71,99 @@ const projects = [
       'C based program which done inter process communication. The program can share case studies between lecturer and student.',
     img: C,
     link: 'https://github.com/Nawod/IPC_Program',
+  },
+  {
+    id: uuidv4(),
+    name: 'Crypto Market UI',
+    desc: 'A crypto marketing web application UI/UX.',
+    img: CryptoUI,
+    link:
+      'https://www.behance.net/gallery/124896191/Dashboard-for-a-crypto-marketing-web-application',
+  },
+  {
+    id: uuidv4(),
+    name: 'PicTip UI',
+    desc: 'A social media web application UI/UX.',
+    img: PictipUI,
+    link:
+      'https://www.behance.net/gallery/124586137/Social-Media-Web-Application-UIWireframes',
+  },
+  {
+    id: uuidv4(),
+    name: 'Portfolio UI',
+    desc: 'A social media web application UI/UX.',
+    img: PortfolioUI,
+    link:
+      'https://www.behance.net/gallery/124427335/Responsive-Portfolio-website',
+  },
+  {
+    id: uuidv4(),
+    name: 'TeachGram UI',
+    desc: 'UI/UX interfaces for online learning platform',
+    img: TeachgramUI,
+    link:
+      'https://www.behance.net/gallery/125023009/Learning-Management-System-UI',
+  },
+  {
+    id: uuidv4(),
+    name: 'Watch Store',
+    desc: 'A Watch store items preview page that build using React JS',
+    img: Watch,
+    link: 'https://github.com/Nawod/watch_store',
+  },
+  {
+    id: uuidv4(),
+    name: 'Escape Room',
+    desc:
+      'A capture the flag challenge that made for test basic cyber security knowledge.',
+    img: EscapeRoom,
+    link: 'https://github.com/Nawod/escape_room',
+  },
+  {
+    id: uuidv4(),
+    name: 'Twite Twitty',
+    desc: 'An endless flying game like Flappy Bird',
+    img: Twite,
+    link: 'https://twite-twitty.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'The Way To Home',
+    desc: 'Construct 2 based 2D web game',
+    img: Waytohome,
+    link: 'https://thewaytohome.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Neuro Realistic Detection System',
+    desc:
+      'NLP based malicious traffics and URL classification extension for ELK stack.(elastic search)',
+    img: NRDS,
+    link: 'https://github.com/Nawod/Neuro-Realistic-Detection-System',
+  },
+  {
+    id: uuidv4(),
+    name: 'Freedom Play',
+    desc:
+      "AI based hand gesture tracking program for control media players' functions. ( Play/Pause, Volume control, Brightness control).",
+    img: HandTracking,
+    link: 'https://github.com/Nawod/Freedom-Play',
+  },
+  {
+    id: uuidv4(),
+    name: 'Autonomous CyberAI Website',
+    desc:
+      'A responsive static website for Autonomous Cyber AI research showcase.',
+    img: CyberAI,
+    link: 'https://autonomous-cyberai.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Bodimak',
+    desc:
+      'A web application that makes an environment to rent and sell boarding places.',
+    img: Bodimak,
+    link: 'https://bodimak.vercel.app/',
   },
 ];
 

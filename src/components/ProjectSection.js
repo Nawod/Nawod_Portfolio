@@ -78,7 +78,7 @@ export default function ProjectSection() {
               1200: { slidesPerView: 3 },
             }}
           >
-            {projects.map((project, index) => {
+            {projects.reverse().map((project, index) => {
               if (index >= 5) return;
               return (
                 <SwiperSlide key={project.id}>

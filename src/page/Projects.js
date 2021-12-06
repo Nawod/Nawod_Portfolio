@@ -83,7 +83,7 @@ export default function Projects() {
           </form>
         </div>
         <div className="project__allItems">
-          {ProjectData.map((item) => (
+          {ProjectData.reverse().map((item) => (
             <ProjectItem
               key={item.id}
               title={item.name}
