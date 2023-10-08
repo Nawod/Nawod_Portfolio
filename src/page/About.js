@@ -84,33 +84,37 @@ export default function About() {
         <div className="top__section">
           <div className="left">
             <p className="about__subheading">
-              Hi, I am <span>Madhuvantha K.A.N.</span>
+              Hi, I am <span>Nawod Madhuvantha</span>
             </p>
             <h2 className="about__heading">
               A freelance UI/UX designer and web developer
             </h2>
             <div className="about__info">
               <PText>
-                I am from Aralaganvila, Sri Lanka and an undergraduate student
-                at Sri Lankan Institute Of Information Technology(SLIIT) who is
-                reading a BSc (Hons) Information Technology degree. Since my
-                childhood I love art and design. Therefore, I started to design
-                UI/UX interfaces on Fiverr as a freelancer.
+                I am from Aralaganvila, Sri Lanka, and currently working as a
+                software engineer at ZOOMi SoftLab. Also a graduated student at
+                Sri Lankan Institute of Information Technology (SLIIT) who is
+                holding a BSc (Hons) Information Technology degree.
                 <br />
-                <br />I also love to coding and getting experience with new
-                technologies. Therefore, I tend to self-learning and I have done
-                many personal projects. Coding is also art for me, now I have
-                the opportunity to design along with the coding. I find it
-                really interesting and I enjoyed the process a lot. <br />
+                <br />
+                Since my childhood, I love art and design. As a hobby I designed
+                UI/UX interfaces on Fiverr as a freelancer. I also love coding
+                and getting experience with new technologies. Therefore, I tend
+                to self-learning, and I have done many personal projects. Coding
+                is also art for me. Therefore I joined ZOOMi SoftLab as an
+                associate software engineer an I have promoted to software
+                engineer. Now I have the opportunity to design along with the
+                coding. I find it really interesting, and I enjoyed the process
+                a lot. <br />
                 <br />
                 My mission is to attain the industry and contribute my
-                knowledge, skills and experience for the advancement of the
+                knowledge, skills, and experience for the advancement of the
                 company while studying and making myself grow with the industry.
               </PText>
             </div>
             <Button
               btnText="Download CV"
-              btnLink="https://drive.google.com/file/d/1oW-oMffecJbmO06P630BrFPGagUBHNzS/view?usp=sharing"
+              btnLink="https://drive.google.com/file/d/1k9a7n8DgrB8_ptjAFSI2_Xgb09g8TJib/view?usp=sharing"
               type="a"
             />
           </div>
@@ -131,8 +135,8 @@ export default function About() {
             <h1 className="about__item__heading">My skills</h1>
             <AboutItemsMulti
               title="Developing"
-              items={['Python', 'C#', 'PHP', 'HTML', 'CSS', 'JS']}
-              items2={['Dart', 'Flutter', 'React', 'SQL', 'NPL']}
+              items={['Angular', 'React', 'Next', 'TS', 'JS']}
+              items2={['HTML', 'SCSS', 'Python', 'C#', 'PHP']}
             />
             <AboutItems
               title="Designing"
@@ -146,12 +150,16 @@ export default function About() {
           <div className="about__item">
             <h1 className="about__item__heading">experience</h1>
             <AboutItems
-              title="2019 - Now"
-              items={['Freelance UX/UI designer on Fiverr']}
+              title="2021 - Now"
+              items={['Software Engineer at ZOOMi Technologies Inc']}
             />
             <AboutItems
               title="2020 - Now "
               items={['Freelance web developer']}
+            />
+            <AboutItems
+              title="2019 - 2021"
+              items={['Freelance UX/UI designer on Fiverr']}
             />
           </div>
         </div>

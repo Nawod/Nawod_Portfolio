@@ -91,9 +91,10 @@ export default function AboutSection() {
             heading="About me"
           />
           <PText>
-            I am a freelance UI/UX designer and web developer from Sri Lanka.
-            Along with that I am currently reading a BSc (Hons) Information
-            Technology degree at SLIIT. As a self-learner I tend to seek new
+            I am working as a software engineer at Zoomi Technologies in
+            developing web applications using Angular, React, and TypeScript
+            technologies.Also a graduated student at SLIIT who is holding a BSc
+            (Hons) Information Technology degree. As a self-learner I tend to
             technologies while improving my skills.
           </PText>
           <div className="aboutSection__buttons">

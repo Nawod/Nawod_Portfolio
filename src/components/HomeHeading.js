@@ -165,16 +165,15 @@ export default function HomeHeading() {
         <div className="container">
           <h1 className="hero__heading">
             <span>Hello, This is</span>
-            <span className="hero__name">Madhuvantha K.A.N.</span>
+            <span className="hero__name">Nawod Madhuvantha</span>
           </h1>
           <div className="hero__img">
             <img src={hero} alt="" />
           </div>
           <div className="hero__info">
             <PText>
-              I am working as a freelance UI/UX designer and web developer for 2
-              years. I love self-learning and getting experience with new
-              technologies.
+              I am a software engineer at Zoomi Technologies Inc., where I
+              develop web applications. And I am a good self learner.
             </PText>
             <Button
               btnLink="/projects"
@@ -200,7 +199,7 @@ export default function HomeHeading() {
                 </li>
                 <li>
                   <a
-                    href="https://www.instagram.com/n_a_w_w_a/"
+                    href="https://www.instagram.com/nawwa.4x/"
                     target="_blank"
                     rel="noreferrer"
                   >

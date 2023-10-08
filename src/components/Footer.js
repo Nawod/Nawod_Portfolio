@@ -52,9 +52,9 @@ export default function Footer() {
     <FooterStyles>
       <div className="container">
         <div className="footer__col1">
-          <h1 className="footer__col1__title">Madhuvantha K.A.N.</h1>
+          <h1 className="footer__col1__title">Nawod Madhuvantha</h1>
           <PText>
-            A freelance UI/UX designer and web developer from Sri Lanka. I will
+            A freelance web developer and UI/UX designer from Sri Lanka. I will
             turn your ideas into digital design or application.
           </PText>
         </div>
@@ -114,7 +114,7 @@ export default function Footer() {
               },
               {
                 title: 'Instagram',
-                path: 'https://www.instagram.com/n_a_w_w_a/',
+                path: 'https://www.instagram.com/nawwa.4x/',
               },
               {
                 title: 'GitHub',
@@ -133,7 +133,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="copyright">
-        <PText>©️ 2021 - Madhuvantha K.A.N.</PText>
+        <PText>©️ {new Date().getFullYear()} - Nawod Madhuvantha</PText>
       </div>
     </FooterStyles>
   );

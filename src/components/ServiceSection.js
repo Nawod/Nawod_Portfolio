@@ -35,20 +35,20 @@ export default function ServiceSection() {
         <SectionTitle heading="Services" subheading="What I will do for you" />
         <div className="services__allItems">
           <ServicesSectionItems
-            desc="I turn ideas into ui/ux design that helps web and mobile application
-          to get a clean and creative look."
-          />
-          <ServicesSectionItems
             icon={<MdCode />}
             title="Web Dev"
-            desc="I also develop the web applications. I create high performance websites with responsive design."
+            desc="I develop the web applications. I create high performance websites with responsive design."
+          />
+          <ServicesSectionItems
+            desc="I turn ideas into ui/ux design that helps web and mobile application
+          to get a clean and creative look."
           />
         </div>
         <div className="service__button">
           <Button
             btnText="Hire me from Fiverr"
             outLine="false"
-            btnLink="https://www.fiverr.com/nawod25?up_rollout=true"
+            btnLink="https://www.fiverr.com/nawod25"
             type="a"
           />
         </div>
