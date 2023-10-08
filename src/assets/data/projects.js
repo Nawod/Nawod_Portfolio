@@ -30,7 +30,7 @@ const projects = [
   },
   {
     id: uuidv4(),
-    name: 'Teachgram',
+    name: 'TeachGram',
     desc: 'TeachGram is an online platform to conduct online classes.',
     img: Teachgram,
     link: 'https://github.com/Nawod/teachgram',
