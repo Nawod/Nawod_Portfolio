@@ -18,6 +18,8 @@ import Waytohome from '../images/waytohome.png';
 import C from '../images/c.png';
 import SimpleStore from '../images/simpleStore.png';
 import Bodimak from '../images/bodimak.png';
+import Marvel from '../images/marvel.png';
+import Ctma from '../images/ctma.png';
 
 const projects = [
   {
@@ -164,6 +166,21 @@ const projects = [
       'A web application that makes an environment to rent and sell boarding places.',
     img: Bodimak,
     link: 'https://bodimak.vercel.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'The Marvel Sri Lanka',
+    desc:
+      'An event showcasing website for an adventure tourism agency in Sri Lanka',
+    img: Marvel,
+    link: 'https://adventuresrilanka.lk/',
+  },
+  {
+    id: uuidv4(),
+    name: 'CTMA - Sri Lanka',
+    desc: 'Ceylon Travel Medicine Association - Sri Lanka official website',
+    img: Ctma,
+    link: 'https://ctma-online.netlify.app/',
   },
 ];
 

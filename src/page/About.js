@@ -92,29 +92,35 @@ export default function About() {
             <div className="about__info">
               <PText>
                 I am from Aralaganvila, Sri Lanka, and currently working as a
-                software engineer at ZOOMi SoftLab. Also a graduated student at
-                Sri Lankan Institute of Information Technology (SLIIT) who is
-                holding a BSc (Hons) Information Technology degree.
+                freelance developer, where I deliver high-quality projects to
+                satisfied clients. Also, I've worked as a software engineer at
+                ZOOMi Technologies Inc. and have experience in developing web
+                applications using Angular, React, and TypeScript technologies.
+                I am a graduate student at the Sri Lankan Institute of
+                Information Technology (SLIIT) who holds a BSc (Hons) in
+                Information Technology degree.
                 <br />
                 <br />
-                Since my childhood, I love art and design. As a hobby I designed
-                UI/UX interfaces on Fiverr as a freelancer. I also love coding
-                and getting experience with new technologies. Therefore, I tend
-                to self-learning, and I have done many personal projects. Coding
-                is also art for me. Therefore I joined ZOOMi SoftLab as an
-                associate software engineer an I have promoted to software
-                engineer. Now I have the opportunity to design along with the
-                coding. I find it really interesting, and I enjoyed the process
-                a lot. <br />
+                Since my childhood, I have loved art, design, and coding.
+                Therefore, I tend to self-learn and pursue a degree in the
+                software development field. As a good self-learner, I am capable
+                of learning new technologies quickly and I am passionate about
+                that. And I have done many personal projects. I joined ZOOMi
+                Technologies Inc. as an associate software engineer and I have
+                been promoted to software engineer. Then I got a break from the
+                job and continued with freelance work.
                 <br />
-                My mission is to attain the industry and contribute my
-                knowledge, skills, and experience for the advancement of the
-                company while studying and making myself grow with the industry.
+                <br />
+                With my proficiency in front-end as well as testing and
+                debugging, my mission is to attain the industry and contribute
+                my knowledge, skills, and experience for the advancement of the
+                software development field while studying and making myself grow
+                with the industry.
               </PText>
             </div>
             <Button
               btnText="Download CV"
-              btnLink="https://drive.google.com/file/d/1k9a7n8DgrB8_ptjAFSI2_Xgb09g8TJib/view?usp=sharing"
+              btnLink="https://drive.google.com/file/d/1fQDmy1rogm_MJ_RHsA47BM7Dl-Q_XmYB/view?usp=sharing"
               type="a"
             />
           </div>
@@ -150,16 +156,12 @@ export default function About() {
           <div className="about__item">
             <h1 className="about__item__heading">experience</h1>
             <AboutItems
-              title="2021 - Now"
-              items={['Software Engineer at ZOOMi Technologies Inc']}
-            />
-            <AboutItems
               title="2020 - Now "
               items={['Freelance web developer']}
             />
             <AboutItems
-              title="2019 - 2021"
-              items={['Freelance UX/UI designer on Fiverr']}
+              title="2021 - 2023"
+              items={['Software Engineer at ZOOMi Technologies Inc']}
             />
           </div>
         </div>
