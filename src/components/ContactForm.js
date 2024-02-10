@@ -62,10 +62,10 @@ export default function ContactForm() {
     e.preventDefault();
     emailjs
       .sendForm(
-        'service_j6xylug',
-        'template_lmlw9ww',
+        'service_1h2rmvd',
+        'template_bjtq31c',
         e.target,
-        'user_tJ2f5utskD29DmKJNfXoQ'
+        'B7L3ggkrzwwczfGeN'
       )
       .then((res) => {
         Notify('success', 'Your message sucessfully sent!');
