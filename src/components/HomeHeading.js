@@ -172,8 +172,9 @@ export default function HomeHeading() {
           </div>
           <div className="hero__info">
             <PText>
-              I am a software engineer at Zoomi Technologies Inc., where I
-              develop web applications. And I am a good self learner.
+              I am a freelance web developer and designer at Fiverr and myself.,
+              where I deliver high-quality projects to satisfied clients. And I
+              am a good self learner.
             </PText>
             <Button
               btnLink="/projects"
