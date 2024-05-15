@@ -120,7 +120,7 @@ export default function About() {
             </div>
             <Button
               btnText="Download CV"
-              btnLink="https://drive.google.com/file/d/1_Cbnnh7G8Cj6dAAyMx91XtWb4NGj2cdc/view?usp=sharing"
+              btnLink="https://drive.google.com/file/d/1ynv3Yr7QMHNK1tACAoam0nJTY8kBCdcA/view?usp=sharing"
               type="a"
             />
           </div>
