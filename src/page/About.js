@@ -92,12 +92,13 @@ export default function About() {
             <div className="about__info">
               <PText>
                 I am from Aralaganvila, Sri Lanka, and currently working as a
-                freelance developer, where I deliver high-quality projects to
-                satisfied clients. Also, I've worked as a software engineer at
+                software engineer at The Marvel Adventures & Expeditions while
+                working as a freelance developer, where I deliver high-quality
+                projects to satisfied clients. Also, I've worked as a software
                 ZOOMi Technologies Inc. and have experience in developing web
-                applications using Angular, React, and TypeScript technologies.
-                I am a graduate student at the Sri Lankan Institute of
-                Information Technology (SLIIT) who holds a BSc (Hons) in
+                applications using Angular, Next, React, and TypeScript
+                technologies. I am a graduate student at the Sri Lankan
+                Institute of Information Technology (SLIIT) who holds a BSc
                 Information Technology degree.
                 <br />
                 <br />
@@ -120,7 +121,7 @@ export default function About() {
             </div>
             <Button
               btnText="Download CV"
-              btnLink="https://drive.google.com/file/d/1_Cbnnh7G8Cj6dAAyMx91XtWb4NGj2cdc/view?usp=sharing"
+              btnLink="https://drive.google.com/file/d/1K8XorYC2SEuOlkb-92ceUtWPGQ9UpnuO/view?usp=sharing"
               type="a"
             />
           </div>
@@ -142,7 +143,7 @@ export default function About() {
             <AboutItemsMulti
               title="Developing"
               items={['Angular', 'React', 'Next', 'TS', 'JS']}
-              items2={['HTML', 'SCSS', 'Python', 'C#', 'PHP']}
+              items2={['HTML', 'SCSS', 'Redux', 'C#', 'PHP']}
             />
             <AboutItems
               title="Designing"
@@ -155,6 +156,12 @@ export default function About() {
           </div>
           <div className="about__item">
             <h1 className="about__item__heading">experience</h1>
+            <AboutItems
+              title="2023 - Now"
+              items={[
+                'Software Engineer at The Marvel Adventures & Expeditions',
+              ]}
+            />
             <AboutItems
               title="2020 - Now "
               items={['Freelance web developer']}

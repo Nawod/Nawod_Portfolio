@@ -20,6 +20,7 @@ import SimpleStore from '../images/simpleStore.png';
 import Bodimak from '../images/bodimak.png';
 import Marvel from '../images/marvel.png';
 import Ctma from '../images/ctma.png';
+import Adventure from '../images/adventure.png';
 
 const projects = [
   {
@@ -173,7 +174,7 @@ const projects = [
     desc:
       'An event showcasing website for an adventure tourism agency in Sri Lanka',
     img: Marvel,
-    link: 'https://adventuresrilanka.lk/',
+    link: 'https://www.themarvelsrilanka.com/',
   },
   {
     id: uuidv4(),
@@ -181,6 +182,13 @@ const projects = [
     desc: 'Ceylon Travel Medicine Association - Sri Lanka official website',
     img: Ctma,
     link: 'https://ctma-online.netlify.app/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Adventure Sri Lanka',
+    desc: 'A blog site to share adventure experiences',
+    img: Adventure,
+    link: 'https://adventuresrilanka.lk/',
   },
 ];
 
