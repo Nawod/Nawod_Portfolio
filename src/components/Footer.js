@@ -94,11 +94,11 @@ export default function Footer() {
                 path: 'tel:+94763991948',
               },
               {
-                title: 'madhuvanthanawo1@gmail.com',
-                path: 'mailto:madhuvanthanawo1@gmail.com',
+                title: 'dev.nawod@gmail.com',
+                path: 'mailto:dev.nawod@gmail.com',
               },
               {
-                title: 'Aralaganvila, Sri Lanka',
+                title: 'Colombo, Sri Lanka',
                 path: 'https://www.google.lk/maps',
               },
             ]}
