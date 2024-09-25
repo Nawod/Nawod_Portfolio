@@ -91,11 +91,11 @@ export default function AboutSection() {
             heading="About me"
           />
           <PText>
-            I am working as a software engineer at The Marvel Adventures & Expeditions in
-            developing web applications using Next, React, and TypeScript
-            technologies. Also a graduated student at SLIIT who is holding a BSc
-            (Hons) Information Technology degree. As a self-learner I tend to
-            technologies while improving my skills.
+            I am working as a software engineer at The Marvel Adventures &
+            Expeditions in developing web applications using Next, React, and
+            TypeScript technologies. Also a graduated student at SLIIT who is
+            holding a BSc (Hons) Information Technology degree. As a
+            self-learner I tend to technologies while improving my skills.
           </PText>
           <div className="aboutSection__buttons">
             <Button btnLink="/projects" btnText="Works" />
