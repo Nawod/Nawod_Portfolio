@@ -21,6 +21,8 @@ import Bodimak from '../images/bodimak.png';
 import Marvel from '../images/marvel.png';
 import Ctma from '../images/ctma.png';
 import Adventure from '../images/adventure.png';
+import NewMarvel from '../images/newMarvel.png';
+import ShamiMobile from '../images/shami.png';
 
 const projects = [
   {
@@ -174,14 +176,14 @@ const projects = [
     desc:
       'An event showcasing website for an adventure tourism agency in Sri Lanka',
     img: Marvel,
-    link: 'https://www.themarvelsrilanka.com/',
+    link: 'https://themarvelsrilanka.netlify.app/',
   },
   {
     id: uuidv4(),
     name: 'CTMA - Sri Lanka',
     desc: 'Ceylon Travel Medicine Association - Sri Lanka official website',
     img: Ctma,
-    link: 'https://ctma-online.netlify.app/',
+    link: 'https://ctma.lk/',
   },
   {
     id: uuidv4(),
@@ -189,6 +191,21 @@ const projects = [
     desc: 'A blog site to share adventure experiences',
     img: Adventure,
     link: 'https://adventuresrilanka.lk/',
+  },
+  {
+    id: uuidv4(),
+    name: 'Shami Mobile',
+    desc: 'An e-commerce website',
+    img: ShamiMobile,
+    link: 'https://shamimobile.com/',
+  },
+  {
+    id: uuidv4(),
+    name: 'The Marvel Adventures & Expeditions',
+    desc:
+      'A dynamic web application to showcase adventures activities and manage bookings',
+    img: NewMarvel,
+    link: 'https://www.themarvelsrilanka.com/',
   },
 ];
 
